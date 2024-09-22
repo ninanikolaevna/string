@@ -24,15 +24,15 @@ fullName
         String middleName = "Ivanovich";
         String lastName = "Ivanov";
         String fullName = lastName + " " + firstName + " " + middleName;
-        System.out.printf("Ф. И. О. сотрудника — %s",fullName);
+        System.out.printf("Ф. И. О. сотрудника — %s", fullName);
 //task2
         System.out.println();
         String fullNameToUpperCase = fullName.toUpperCase();
-        System.out.printf("Данные Ф. И. О. сотрудника для заполнения отчета — %s",fullNameToUpperCase);
+        System.out.printf("Данные Ф. И. О. сотрудника для заполнения отчета — %s", fullNameToUpperCase);
 //task3
         System.out.println();
         fullName = "Иванов Семён Семёнович";
-        String fullNameReplaceE = fullName.replace("ё","е");
+        String fullNameReplaceE = fullName.replace("ё", "е");
         System.out.printf("Данные Ф. И. О. сотрудника — %s", fullNameReplaceE);
     }
 }
